@@ -1,0 +1,30 @@
+h1{
+    color: hotpink;
+    
+}
+h2{
+    color: rgb(243, 137, 174);
+}
+
+body{
+    background-color: rgb(245, 209, 234);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(80, 40, 68);
+}
+
+button{
+    background-color: hotpink;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(223, 20, 172);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: url('baguette_cursor.png') 16 16, auto;
+    
+    }
+
+html, body {  
+    cursor: url('baguette_cursor.png') 16 16, auto;
+}
