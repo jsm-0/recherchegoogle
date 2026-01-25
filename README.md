@@ -62,7 +62,3 @@ $pass = '';     // Votre mot de passe MySQL
 *   `submit.php` : Script backend pour l'enregistrement des commentaires.
 *   `style.css` : Feuille de style pour la mise en page.
 *   `sql/` : Dossier contenant les scripts SQL d'initialisation.
-
-## Notes de Sécurité (Contexte Cybersécurité)
-
-Ce projet est un TP et contient intentionnellement des points d'amélioration possibles pour la sécurité (ex: validation des entrées, protection CSRF).
