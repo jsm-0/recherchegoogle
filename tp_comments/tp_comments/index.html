@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr"><!--Langue du site-->
+
+<head>
+    <meta charset="UTF-8"> <!--Encodage du site, sert à décoder le site web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Pour que le site s'adapte à ton écran-->
+    <link rel="stylesheet" href="style.css">
+    <title>recherche</title>
+</head>
+
+<body>
+    <h1> ╔═══*.·:·.☽✧ ✦ ✧☾.·:·.*═══╗<br>
+        BIENVENUE <br>
+        ╚═══*.·:·.☽✧ ✦ ✧☾.·:·.*═══╝</h1>
+    <fieldset>
+        <h2>Faites votre recherche</h2>
+        <form method="GET" action="https://www.google.com/search">
+            <input type="text" name="q">
+            <button type="submit">chercher</button>
+
+            <p>Vous serez redirigé vers la page correspondant à votre recherche </p>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <h2>Livre d'Or</h2>
+        <form method="POST" action="submit.php">
+            <label for="comment">Laisser un commentaire :</label><br>
+            <textarea id="comment" name="content" rows="4" cols="50" required
+                placeholder="Votre message..."></textarea><br>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p><a href="comments.php">Voir les commentaires existants</a></p>
+    </fieldset>
+</body>
+
+</html>
